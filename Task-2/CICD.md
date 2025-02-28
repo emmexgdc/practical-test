@@ -9,6 +9,7 @@ This GitHub Actions workflow will:
    - Uses environment variables from GitHub Secrets for testing
 
 3. Deploy to Render only if:
+   - Use an action gotten from githubs action store.
    - Tests pass successfully
    - The event is a push (not a pull request)
    - The target branch is main or master
